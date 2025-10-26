@@ -78,3 +78,47 @@ details p{margin:8px 0 0;color:#444;line-height:1.45}
   .hero-image img{border-radius:8px}
   .menu-card img{height:180px}
 }
+
+/* --- Contact Section --- */
+.contact {
+  text-align: center;
+  margin-top: 60px;
+  padding: 30px 0;
+  background-color: #f9fff7;
+}
+
+.contact h2 {
+  color: var(--accent-dark);
+  margin-bottom: 10px;
+}
+
+.ig-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.ig-link:hover {
+  color: #43a047;
+  transform: scale(1.05);
+}
+
+.ig-icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(36%) sepia(67%) saturate(415%) hue-rotate(88deg) brightness(90%) contrast(91%);
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e8f5e9;
+  color: #388e3c;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
